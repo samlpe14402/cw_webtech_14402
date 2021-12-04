@@ -1,6 +1,6 @@
 body {
     justify-content: center;
-    background-color: black;
+    background-color: #ffc2f6;
 }
 * {
     margin: 0;
@@ -25,7 +25,7 @@ nav ul{
 }
 
 nav ul li a{
-    color: #f2f2f2;
+    color: #1980a8;
     text-decoration: none;
     font-size: 18px;
     font-weight: 500;
@@ -35,7 +35,7 @@ nav ul li a{
     transition: all 0.3s ease;
 }
 nav ul li{
-    background: black;
+    background: #ffc2f6;
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 10px;
@@ -90,11 +90,14 @@ nav{
     display: flex;
     height: 80px;
     width: 100%;
-    background: black;
+    background: #ffc2f6;
     align-items: center;
     justify-content: space-between;
     padding: 0 50px 0 100px;
     flex-wrap: wrap;
+    position: fixed;
+    top: 0px;
+    width: 100%;
 }
 
 .title {
@@ -121,10 +124,23 @@ nav{
     text-align: center;
     align-items: center;
 }
+.darkent{
+    color: black;
+}
+
+.P{
+    color: #F1A4F2;
+}
+.I{
+    color: #E9E402;
+}
+.T{
+    color: #39A9E3;
+}
 
 
 .price {
-    color: #e2e2e2;
+    color: #1980a8;
 }
 
 @keyframes show { 
@@ -162,4 +178,39 @@ section{
 .lsd {
     color: black;
     font-size: 18.7px;
+}
+
+.ending{
+    background-color: black;
+}
+.ending h6{
+    color: white;
+    text-align: center;
+    font-size: 13pt;
+    padding: 20px;
+}
+.a-line {
+    color: #2f76ff;
+    outline: none;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.a-line :before {
+    color: #2f76ff;
+    outline: none;
+    text-decoration: none;
+}
+.a-line:hover{
+    font-size: 25px;
+}
+
+#web{
+    color: #F1A4F2;
+}
+#tech{
+    color: #E9E402;
+}
+#mod{
+    color: #39A9E3;
 }
