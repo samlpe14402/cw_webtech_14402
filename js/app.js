@@ -1,4 +1,5 @@
-    
+const nickname = document.getElementById('promo')
+
 
 function first_credential(){
     console.log(" ___    __    _  _    __     ___  ____ ");
@@ -16,3 +17,4 @@ function second_credential(){
 }
 
 second_credential();
+
