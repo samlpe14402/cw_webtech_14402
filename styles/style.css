@@ -32,6 +32,7 @@ nav ul li a{
     border-radius: 5px;
     letter-spacing: 1px;
     transition: all 0.3s ease;
+    font-weight: bold;
 }
 nav ul li{
     background: #ffc2f6;
@@ -240,11 +241,11 @@ section{
 
 
 .itemcards {
-    margin-left: 15PX;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     grid-template-rows: auto;
     grid-gap: 30px;
     display: grid;
+    margin-bottom: 20px;
 }
 
 .article {
@@ -314,5 +315,56 @@ section{
     border: solid 1px #39A9E3;
 }
 
+.contacts-div{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.contacts-div h1{
+    color: #39A9E3;
+    font-size: 50px;
+}
 
+.contacts-p1{
+   font-family: monospace;
+   font-size: 24px;
+   color: #39A9E3; 
+   font-weight: bold;
+}
 
+.contacts-p2{
+   font-family: monospace;
+   font-size: 24px;
+   color: white; 
+   font-weight: bold;
+}
+
+.section1{
+    height: 100vh;
+    background-image: url(https://free4kwallpapers.com/uploads/originals/2019/12/22/trippy-wallpaper.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.section2{
+    
+}
+
+.section3{
+    height: 100vh;
+    background-image: url(https://www.teahub.io/photos/full/8-88188_trippy-wallpaper-luxury-psychedelic-wallpapers-4k-for-trippy.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.section5{
+    height: 100vh;
+    background-image: url(https://images.hdqwalls.com/wallpapers/psychedelic-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed
+}
+.section6{
+    height: 100vh;
+    background-image: url(https://wallpaperaccess.com/full/956037.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
