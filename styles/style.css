@@ -230,6 +230,7 @@ section{
     align-self: center;
     margin: 0 auto;
     align-content: center;
+    margin-top: 150px;
 }
 
 .shop-index {
@@ -273,6 +274,7 @@ section{
     color: white;
     border: solid 1px #c5c5c5;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .numaro {
@@ -290,6 +292,7 @@ section{
     color: white;
     border: solid 1px #c5c5c5;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .addtocart {
@@ -346,9 +349,13 @@ section{
 }
 
 .section2{
-    
+    padding-top: 20px;
 }
 
+
+.section4{
+    padding-top: 20px;
+}
 .section3{
     height: 100vh;
     background-image: url(https://www.teahub.io/photos/full/8-88188_trippy-wallpaper-luxury-psychedelic-wallpapers-4k-for-trippy.jpg);
@@ -367,4 +374,9 @@ section{
     background-image: url(https://wallpaperaccess.com/full/956037.jpg);
     background-size: cover;
     background-attachment: fixed;
+}
+.breakline{
+    height: 30px;
+
+    background-image: url(line.svg);
 }
