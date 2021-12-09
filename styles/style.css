@@ -9,6 +9,9 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+nav{
+    width: 100%;
+}
 
 nav .logo {
     color: #fff;
@@ -18,11 +21,15 @@ nav .logo {
 }
 
 nav ul{
+    float: right;
     display: flex;
     flex-wrap: wrap;
     list-style: none;
 }
-
+img {
+    max-width:100%;
+    height:auto;
+}
 nav ul li a{
     color: #39A9E3;
     text-decoration: none;
@@ -39,6 +46,7 @@ nav ul li{
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 10px;
+    display: inline-block;
 }
 nav ul li:hover{
     background: black;
